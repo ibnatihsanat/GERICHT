@@ -1,0 +1,524 @@
+body {
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+a,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #FFFFFF;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    font-family: ' Open Sans', sans-serif;
+}
+
+header {
+    margin-top: -20px;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: 'Cormorant Upright';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 80px;
+    margin-top: 34px;
+    margin-bottom: 32px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: ' Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main-items {
+    margin-right: 50px;
+}
+
+.main-items li a {
+    padding: 0px 10px;
+}
+
+.logreg {
+    margin-right: 50px;
+}
+
+.logreg li {
+    padding: 0px 20px 0px 20px;
+}
+
+.Hero {
+    width: 500px;
+    height: auto;
+    margin-left: 18%;
+    margin-top: 100px;
+}
+
+.content h2 {
+    margin-top: 0;
+    color: #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    width: 250px;
+}
+
+.content p {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+
+}
+
+#btn-content {
+    background: #DCCA87;
+    width: 157px;
+    height: 44px;
+    padding: 8px 32px 8px 32px
+}
+
+.content-img img {
+    margin-top: -400px;
+    margin-left: 380px;
+    width: 400px;
+    height: 450px;
+}
+
+.slider {
+    margin-top: 40px;
+    margin-left: 350px;
+}
+
+.slider img {
+    margin-bottom: 5px;
+}
+
+.slider span {
+    color: #F5EFDB;
+}
+
+.scroll {
+    margin-left: 950px;
+    margin-top: -90px;
+}
+
+.scroll p {
+    color: #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-size: 20px;
+    margin-left: -20px;
+    margin-top: -2px;
+}
+
+.hastags {
+    margin-left: -700px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    transform: rotate(-90deg);
+}
+
+.hastags p {
+    padding: 10px 10px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    margin-top: -200px;
+    width: 100%;
+    height: 600px;
+    background-image: url(./icons/G.svg);
+    background-color: #0C0C0C;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-us {
+    text-align: right;
+    margin-left: 300px;
+    margin-top: -50px;
+}
+
+.about-us p {
+    font-family: 'Open Sans';
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: right;
+    width: 250px;
+}
+
+.about-us h5,
+.our-history h5 {
+    font-family: ' Cormorant Upright';
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: #DCCA87;
+    margin-bottom: -2px;
+}
+
+#abtus-btn,
+#ourhist-btn {
+    width: 141px;
+    height: 44px;
+    padding: 8px 32px 8px 32px;
+    background: #DCCA87;
+}
+
+#knife {
+    width: 50px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.our-history {
+    margin-top: -50px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.our-history p {
+    font-family: 'Open Sans';
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-align: left;
+    width: 250px;
+}
+
+.menu {
+    margin-top: 100px;
+}
+
+.menu h5 {
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#menuimg {
+    margin-left: 600px;
+}
+
+.menu h2 {
+    font-family: 'Cormorant Upright';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #DCCA87;
+    margin-top: -20px;
+}
+
+.menu h3 {
+    font-family: 'Cormorant Upright';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+
+}
+
+#centerimg {
+    margin-top: -365px;
+    width: 200px;
+    height: 350px;
+    margin-left: 400px;
+    margin-bottom: 40px;
+}
+
+.drinks {
+    display: flex;
+    justify-content: center;
+}
+
+.winebeer h3,
+.cocktail-items h3 {
+    margin-left: 100px;
+}
+
+.winebeer li,
+.cocktail-items li {
+    color: #DCCA87;
+    font-family: 'Cormorant Upright';
+}
+
+.winebeer svg {
+    margin-left: 150px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.winebeer h6 {
+    font-size: 16px;
+    margin-left: 300px;
+    margin-top: -35px;
+}
+
+.winebeer p {
+    margin-top: -20px;
+}
+
+.cocktail-items li {
+    color: #DCCA87;
+    font-family: 'Cormorant Upright';
+}
+
+.cocktail-items svg {
+    margin-left: 120px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.cocktail-items h6 {
+    margin-left: 250px;
+    margin-top: -35px;
+    font-size: 16px;
+}
+
+.cocktail-items p {
+    margin-top: -20px;
+}
+
+.menu button {
+    width: 136px;
+    height: 44px;
+    padding: 8px 32px 8px 32px;
+    margin-left: 590px;
+    background: #DCCA87;
+    color: #000000;
+}
+
+.chef {
+    margin-top: 200px;
+}
+
+.chef img {
+    margin-left: 15%;
+    width: 400px;
+    height: 500px;
+}
+
+.the-chef {
+    margin-left: 55%;
+    margin-top: -42%;
+}
+
+.the-chef h2 {
+    font-family: 'Cormorant Upright';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #DCCA87;
+}
+
+.the-chef h6 {
+    font-family: 'Cormorant Upright';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-bottom: -40px;
+}
+
+#chef-spoon {
+    margin-bottom: -40px;
+}
+
+.the-chef p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    width: 500px;
+    color: #AAAAAA;
+}
+
+.the-chef h5 {
+    font-family: 'Cormorant Upright';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-bottom: -10px;
+    color: #DCCA87;
+}
+
+.the-chef span {
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+    margin-bottom: -10px;
+}
+
+#signature {
+    font-family: 'Bestermind';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 83px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+}
+
+.video {
+    margin-top: 200px;
+    width: 100%;
+    height: 600px;
+}
+
+#background {
+    width: 100%;
+}
+
+#play {
+    position: relative;
+    bottom: 320px;
+    left: 45%;
+    width: 80px;
+    height: 80px;
+}
+
+.double-spoon img {
+    margin-top: -60px;
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.awards {
+    display: flex;
+    margin: 30px;
+}
+
+.award-recognition {
+    margin-left: 150px;
+    text-align: center;
+    width: 300px;
+    display: flex;
+}
+
+.awards ul {
+    margin-top: 150px;
+    margin-left: -340px;
+}
+
+.awards h5 {
+    font-family: 'Cormorant Upright';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-bottom: -25px;
+}
+
+.awards svg {
+    margin-bottom: -30px;
+    margin-left: -250px;
+}
+
+.awards h2 {
+    font-family: 'Cormorant Upright';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #DCCA87;
+}
+
+.awards ul img {
+    width: 50px;
+    height: 50px;
+}
+
+.awards ul h5 {
+    font-family: 'Cormorant Upright';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #DCCA87;
+}
+
+.awards ul p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #AAAAAA;
+}
+
+.awards li {
+    display: flex;
+}
+
+.aside-img img {
+    width: 300px;
+    height: 400px;
+}
