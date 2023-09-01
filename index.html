@@ -15,14 +15,13 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
     <title>Gerícht</title>
 </head>
 
 <body>
     <header>
         <h1> Gerícht </h1>
-        <nav>
+        <nav class="desktopnav">
             <ul class="main-items">
                 <li> <a href="#">Home</a></li>
                 <li> <a href="#">Pages</a></li>
@@ -36,12 +35,90 @@
                 <li><a href="#" id="booktable">Book table</a></li>
             </ul>
         </nav>
+        <nav class="mobilenav">
+            <ul class="menu" id="mainmenu">
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"
+                        fill="#DCCA87">
+                        <path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                    </svg>
+                </li>
+            </ul>
+            <ul class="menuitems" id="menu-items">
+                <li class="close-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"
+                        fill="#DCCA87" id="close">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+                        fill="#DCCA87">
+                        <path
+                            d="M200-160v-320H80l400-360 160 144v-104h120v212l120 108H760v320H520v-240h-80v240H200Zm80-80h80v-240h240v240h80v-312L480-732 280-552v312Zm80-240h240-240Zm40-79h160q0-32-24-52.5T480-632q-32 0-56 20.5T400-559Z" />
+                    </svg></li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+                        fill="#DCCA87">
+                        <path
+                            d="M480-160q-48-38-104-59t-116-21q-42 0-82.5 11T100-198q-21 11-40.5-1T40-234v-482q0-11 5.5-21T62-752q46-24 96-36t102-12q58 0 113.5 15T480-740v484q51-32 107-48t113-16q36 0 70.5 6t69.5 18v-480q15 5 29.5 10.5T898-752q11 5 16.5 15t5.5 21v482q0 23-19.5 35t-40.5 1q-37-20-77.5-31T700-240q-60 0-116 21t-104 59Zm80-200v-380l200-200v400L560-360Zm-160 65v-396q-33-14-68.5-21.5T260-720q-37 0-72 7t-68 21v397q35-13 69.5-19t70.5-6q36 0 70.5 6t69.5 19Zm0 0v-396 396Z" />
+                    </svg>
+                </li>
+
+                <li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+                        fill="#DCCA87">
+                        <path
+                            d="M160-40v-80h640v80H160Zm0-800v-80h640v80H160Zm320 400q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm70-80q45-56 109-88t141-32q77 0 141 32t109 88h70v-480H160v480h70Zm118 0h264q-29-20-62.5-30T480-280q-36 0-69.5 10T348-240Zm132-280q-17 0-28.5-11.5T440-560q0-17 11.5-28.5T480-600q17 0 28.5 11.5T520-560q0 17-11.5 28.5T480-520Zm0 40Z" />
+                    </svg></li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+                        fill="#DCCA87">
+                        <path
+                            d="M280-280h84l240-238-86-86-238 238v86Zm352-266 42-44q6-6 6-14t-6-14l-56-56q-6-6-14-6t-14 6l-44 42 86 86ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h168q13-36 43.5-58t68.5-22q38 0 68.5 22t43.5 58h168q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm280-590q13 0 21.5-8.5T510-820q0-13-8.5-21.5T480-850q-13 0-21.5 8.5T450-820q0 13 8.5 21.5T480-790ZM200-200v-560 560Z" />
+                    </svg>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+                        fill="#DCCA87">
+                        <path
+                            d="M754-324 120-500v-220l60 20 28 84 192 54v-318l80 20 110 350 200 56q23 6 36.5 24.5T840-388q0 33-27 53t-59 11ZM120-120v-80h720v80H120Z" />
+                    </svg>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+                        fill="#DCCA87">
+                        <path
+                            d="M480-120v-80h280v-560H480v-80h280q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H480Zm-80-160-55-58 102-102H120v-80h327L345-622l55-58 200 200-200 200Z" />
+                    </svg>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+                        fill="#DCCA87">
+                        <path
+                            d="M400-400h160v-80H400v80Zm0-120h320v-80H400v80Zm0-120h320v-80H400v80Zm-80 400q-33 0-56.5-23.5T240-320v-480q0-33 23.5-56.5T320-880h480q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H320Zm0-80h480v-480H320v480ZM160-80q-33 0-56.5-23.5T80-160v-560h80v560h560v80H160Zm160-720v480-480Z" />
+                    </svg>
+                </li>
+            </ul>
+        </nav>
     </header>
+
+    <!-- <i class="fa fa-home"></i>
+            <i class="fa fa-file-text-o" aria-hidden="true"></i>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <i class="fa fa-address-book" aria-hidden="true"></i>
+            <i class="fa fa-plane" aria-hidden="true"></i>
+            <i class="fa fa-sign-in" aria-hidden="true"></i>
+            <i class="fa fa-table" aria-hidden="true"></i>
+            <i class="fa fa-times" aria-hidden="true"></i> -->
     <main>
         <section class="Hero">
             <div class="content">
                 <h5>Chase The New Flavour</h5>
-                <img src="./images/spoon.png" alt="">
+                <svg width="40" height="10" viewBox="0 0 40 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M33.5014 9.5C37.0847 9.5 39.9998 7.48129 39.9998 4.99995C39.9998 2.51861 37.0847 0.5 33.5014 0.5C30.112 0.5 27.3219 2.30637 27.0298 4.6018H22.3527V3.6552L-0.000213623 3.6552V6.34446L22.3528 6.34446V5.39798H27.0299C27.3221 7.69352 30.112 9.5 33.5014 9.5ZM21.4896 5.54839L0.863079 5.54839V4.45161H21.4896V5.54839ZM27.866 4.99995C27.866 2.95778 30.3942 1.2964 33.5015 1.2964C36.6088 1.2964 39.137 2.95778 39.137 4.99995C39.137 7.04222 36.6088 8.7037 33.5015 8.7037C30.3942 8.7037 27.866 7.04222 27.866 4.99995Z"
+                        fill="#DCCA87" />
+                </svg>
                 <h2>The key to Fine dining</h2>
                 <p>Sit tellus lobortis sed senectus vivamus molestie. <br>
                     Condimentum volutpat morbi facilisis quam scelerisque <br>
@@ -52,26 +129,25 @@
             <div class="content-img">
                 <img src="./images/Hero img.png" alt="">
             </div>
-
-            <div class="slider">
-                <span>01</span>
-                <img src="./images/slider.png" alt="">
-                <span>02</span>
-                <span>03</span>
-                <span>04</span>
-            </div>
-            <div class="scroll">
-                <img src="./images/scroll.png" alt="">
-                <p>Scroll</p>
-            </div>
-
-            <div class="hastags">
-                <p>#Bar</p>
-
-                <p>#Gericht</p>
-            </div>
         </section>
 
+        <div class="slider">
+            <span>01</span>
+            <img src="./images/slider.png" alt="">
+            <span>02</span>
+            <span>03</span>
+            <span>04</span>
+        </div>
+        <div class="scroll">
+            <img src="./images/scroll.png" alt="">
+            <p>Scroll</p>
+        </div>
+
+        <div class="hastags">
+            <p>#Bar</p>
+
+            <p>#Gericht</p>
+        </div>
         <section class="about">
             <div class="about-us">
                 <h5>About Us</h5>
@@ -102,9 +178,9 @@
                 <button id="ourhist-btn">Know More</button>
             </div>
         </section>
-        <section class="menu">
+        <section class="Drinkmenu">
             <h5>Menu that fits you palatte</h5>
-            <img src="./icons/spoon.svg" alt="" id="menuimg">
+            <img src="./icons/spoon.svg" alt="" id="menusvg">
 
             <h2>Today’s Special</h2>
             <div class="drinks">
@@ -221,8 +297,7 @@
             </div>
         </section>
         <section class="video">
-            <img src="./images/video-background.png" alt="" id="background">
-            <img src="./icons/Play.svg" alt="" id="play">
+            <img src="./images/videoimg.png" alt="" id="background">
         </section>
         <section class="awd">
             <section class="awards">
@@ -252,8 +327,8 @@
                         <p>Lorem ipsum dolor sit amet, consectetur.</p>
                     </li>
                 </ul>
-                <ul class="second">
-                    <img src="./images/awards-5.png" alt="">
+                <ul class="second-stage">
+                    <img src="./images/awards-5.png" alt="" id="fifth">
                     <li>
                         <h5>AA Hospitality</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur.</p>
@@ -416,10 +491,28 @@
                         07:00am -11:00 pm
                     </li>
                 </ul>
+                <p id="last">2021 Gerícht. All Rights reserved.</p>
+
             </section>
-            <p id="last">2021 Gerícht. All Rights reserved.</p>
         </section>
     </footer>
+    <script>
+        const menu = document.querySelector('.menu');
+        const MenuItem = document.querySelector('.menuitems');
+        const closeIcon = document.querySelector('.close-icon');
+
+        menu.addEventListener('click', (e) => {
+            MenuItem.style.display = 'block';
+            closeIcon.style.display = 'block';
+            menu.style.display = 'none';
+        });
+
+        closeIcon.addEventListener('click', (e) => {
+            MenuItem.style.display = 'none';
+            closeIcon.style.display = 'none';
+            menu.style.display = 'block';
+        });
+    </script>
 </body>
 
 </html>
