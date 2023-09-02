@@ -1069,8 +1069,12 @@ footer {
         margin-left: -1rem;
     }
 
+    .working-hours li {
+        margin-left: -1.5rem;
+    }
+
     #last {
         margin-top: 2rem;
-        margin-left: 5rem;
+        margin-left: 3.5rem;
     }
 }
